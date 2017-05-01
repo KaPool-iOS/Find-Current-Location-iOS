@@ -14,6 +14,7 @@
 		6E7D0CD71E19D9D1000CD74B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7D0CD51E19D9D1000CD74B /* LaunchScreen.storyboard */; };
 		6E7D0CE21E19D9D1000CD74B /* Find_User_LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D0CE11E19D9D1000CD74B /* Find_User_LocationTests.swift */; };
 		6E7D0CED1E19D9D1000CD74B /* Find_User_LocationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7D0CEC1E19D9D1000CD74B /* Find_User_LocationUITests.swift */; };
+		6E7D0CFC1E19D9EE000CD74B /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7D0CFB1E19D9EE000CD74B /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		6E7D0CE81E19D9D1000CD74B /* Find User LocationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Find User LocationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7D0CEC1E19D9D1000CD74B /* Find_User_LocationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Find_User_LocationUITests.swift; sourceTree = "<group>"; };
 		6E7D0CEE1E19D9D1000CD74B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7D0CFB1E19D9EE000CD74B /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7D0CFC1E19D9EE000CD74B /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +84,7 @@
 				6E7D0CE01E19D9D1000CD74B /* Find User LocationTests */,
 				6E7D0CEB1E19D9D1000CD74B /* Find User LocationUITests */,
 				6E7D0CCA1E19D9D1000CD74B /* Products */,
+				6E7D0CFA1E19D9EE000CD74B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +127,14 @@
 				6E7D0CEE1E19D9D1000CD74B /* Info.plist */,
 			);
 			path = "Find User LocationUITests";
+			sourceTree = "<group>";
+		};
+		6E7D0CFA1E19D9EE000CD74B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6E7D0CFB1E19D9EE000CD74B /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
